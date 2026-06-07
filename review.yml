@@ -1,0 +1,11 @@
+name: South Tyrol Retecivica Data
+url: https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.10.7), ~938 datasets.
+    endpoints:
+      - url: https://dati.retecivica.bz.it/api/3/action/status_show
+        status: 200

@@ -1,0 +1,55 @@
+aid: dati-retecivica-bz-it
+name: South Tyrol Retecivica Data
+description: >-
+  South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Regional Government
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: dati-retecivica-bz-it:catalog
+    name: South Tyrol Retecivica Data CKAN Action API
+    description: >-
+      CKAN Action API for South Tyrol Retecivica Data, ~938 datasets.
+    humanURL: https://dati.retecivica.bz.it
+    baseURL: https://dati.retecivica.bz.it/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://dati.retecivica.bz.it
+      - type: x-api-endpoint
+        url: https://dati.retecivica.bz.it/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.10.7'
+common:
+  - type: Website
+    url: https://dati.retecivica.bz.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/dati-retecivica-bz-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/dati-retecivica-bz-it-rate-limits.yml
+  - type: FinOps
+    url: finops/dati-retecivica-bz-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
