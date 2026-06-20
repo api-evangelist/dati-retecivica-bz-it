@@ -3,7 +3,7 @@ name: South Tyrol Retecivica Data
 description: >-
   South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).
 kind: government
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/apis.yml
 tags:
   - Open Data
