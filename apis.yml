@@ -38,6 +38,8 @@ apis:
       - type: x-ckan-version
         value: '2.10.7'
 common:
+  - type: DomainSecurity
+    url: security/dati-retecivica-bz-it-domain-security.yml
   - type: Website
     url: https://dati.retecivica.bz.it
   - type: Documentation
